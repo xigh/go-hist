@@ -42,7 +42,7 @@ Files can be binary files, such as raw audio track:
 
 Files can also be floats in text format:
 
-        cat hist.txt
+	head data.txt
 	1.35
 	1.50
 	1.09
@@ -53,16 +53,8 @@ Files can also be floats in text format:
 	1.11
 	1.11
 	0.68
-	0.82
-	1.82
-	1.64
-	2.46
-	1.81
-	2.26
-	1.63
-	...
 	
-	./hist ../51130591/hist.txt 
+	./hist data.txt 
 	scanning input
 	c=1418 min=0.150000 max=33.670000 avg=4.360035 zero=0.00, vpl=1.00 [1438x1000]
 	generating background
